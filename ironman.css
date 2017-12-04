@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: rgb(142, 52, 49);
+  height: 200vh;
+  width: 100vh;
+
+}
+
+.text {
+  color: white;
+  font-family: 'Pacifico', sans-serif;
+}
+
+.position {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+
+
+#circle {
+  display: flex;
+  justify-content: center;
+  background: white;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
